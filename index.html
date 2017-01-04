@@ -1,0 +1,12 @@
+<!doctype html>
+<head>
+	<title>GIT SITE</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+</head>
+<body ng-app>
+	<h1>Hello world!</h1>
+	<input type="text" ng-model="name">
+
+	<input type="checkbox" ng-model="showCheck"><br>
+	<div ng-show="showCheck">Hello {{name}}</div>
+</body>
